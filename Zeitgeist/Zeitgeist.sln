@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeitgeist.Web.API", "Zeitgeist.Web.API\Zeitgeist.Web.API.csproj", "{301ADE5C-E4EC-470B-AF44-50723446262F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{B5C9B55E-398E-4D41-A9C7-5537768D11F5}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{5AC70D10-45C0-4E2A-ACAE-783160C590CB}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\ZeitgeistWebAPI-WAWS-dev.json = PublishScripts\Configurations\ZeitgeistWebAPI-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeitgeist.Web.API.Tests", "Zeitgeist.Web.API.Tests\Zeitgeist.Web.API.Tests.csproj", "{783A991B-E98A-47A4-864C-0181192E11B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{301ADE5C-E4EC-470B-AF44-50723446262F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{301ADE5C-E4EC-470B-AF44-50723446262F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{301ADE5C-E4EC-470B-AF44-50723446262F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{301ADE5C-E4EC-470B-AF44-50723446262F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{783A991B-E98A-47A4-864C-0181192E11B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{783A991B-E98A-47A4-864C-0181192E11B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{783A991B-E98A-47A4-864C-0181192E11B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{783A991B-E98A-47A4-864C-0181192E11B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5AC70D10-45C0-4E2A-ACAE-783160C590CB} = {B5C9B55E-398E-4D41-A9C7-5537768D11F5}
+	EndGlobalSection
+EndGlobal
