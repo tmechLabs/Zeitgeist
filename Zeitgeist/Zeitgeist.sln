@@ -16,8 +16,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configura
 		PublishScripts\Configurations\ZeitgeistWebAPI-WAWS-dev.json = PublishScripts\Configurations\ZeitgeistWebAPI-WAWS-dev.json
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeitgeist.Web.UI", "Zeitgeist.Web.UI\Zeitgeist.Web.UI.csproj", "{29148F04-C96E-419B-8F8F-5878E731CFF4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeitgeist.Web.API.Tests", "Zeitgeist.Web.API.Tests\Zeitgeist.Web.API.Tests.csproj", "{EFE24120-E536-43B5-B192-6C0377EABD54}"
 EndProject
 Global
@@ -30,10 +28,6 @@ Global
 		{301ADE5C-E4EC-470B-AF44-50723446262F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{301ADE5C-E4EC-470B-AF44-50723446262F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{301ADE5C-E4EC-470B-AF44-50723446262F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{29148F04-C96E-419B-8F8F-5878E731CFF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{29148F04-C96E-419B-8F8F-5878E731CFF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{29148F04-C96E-419B-8F8F-5878E731CFF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{29148F04-C96E-419B-8F8F-5878E731CFF4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EFE24120-E536-43B5-B192-6C0377EABD54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EFE24120-E536-43B5-B192-6C0377EABD54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFE24120-E536-43B5-B192-6C0377EABD54}.Release|Any CPU.ActiveCfg = Release|Any CPU
