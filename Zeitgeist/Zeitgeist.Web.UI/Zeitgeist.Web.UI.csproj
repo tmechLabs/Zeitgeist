@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>732d213c-a410-4cdc-adbb-ad08d57c01d5</ProjectGuid>
+    <ProjectGuid>{29148F04-C96E-419B-8F8F-5878E731CFF4}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Zeitgeist.Web.UI</RootNamespace>
